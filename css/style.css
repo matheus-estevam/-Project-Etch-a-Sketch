@@ -1,3 +1,19 @@
+html,
+body,
+p,
 h1 {
-  color: blue;
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  background-color: #0560fd;
+  padding: 12px;
+}
+
+.header h1 {
+  color: white;
+  text-align: center;
+  font-family: "VT323", monospace;
+  font-size: 2.4rem;
 }
