@@ -9,13 +9,27 @@
       href="https://fonts.googleapis.com/css2?family=VT323&display=swap"
       rel="stylesheet"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
     <link rel="stylesheet" href="./css/style.css" />
     <title>Etch-a-Sketch</title>
   </head>
   <body>
     <header class="header">
-      <h1>Etch-a-Sketch</h1>
+      <h1 class="animate__animated animate__tada">Etch-a-Sketch</h1>
     </header>
+    <div class="container-game">
+      <main class="container"></main>
+      <aside class="controls">
+        <input type="color" id="colors" />
+        <button class="rainbow">Rainbow</button>
+        <button class="clear">Clear</button>
+        <button class="eraser">Eraser</button>
+      </aside>
+    </div>
+
     <script src="./js/script.js"></script>
   </body>
 </html>
