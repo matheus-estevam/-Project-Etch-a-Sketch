@@ -1,7 +1,7 @@
 # Project-Etch-a-Sketch
 
 
-En/us: This is The Odin Projects PEtch-a-Sketch
+En/us: This is The Odin Projects based Etch-a-Sketch
  project!
 
 https://www.theodinproject.com/lessons/foundations-etch-a-sketch
